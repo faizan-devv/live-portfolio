@@ -1,0 +1,33 @@
+.CapabilitiesBox {
+  flex: 0 0 33.33%;
+  background: transparent;
+  padding: 0px 15px;
+}
+.CapabilitiesDiv {
+  pad: 0px 15px;
+  margin-bottom: 70px;
+}
+.CapabilitiesDiv h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.CapabilitiesDiv p {
+  font-size: 19px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .CapabilitiesBox {
+    flex: 0 0 50%;
+  }
+  .CapabilitiesDiv h4 {
+    font-size: 22px;
+  }
+  .CapabilitiesDiv img {
+    max-width: 60px;
+  }
+  .CapabilitiesDiv p {
+    font-size: 14px;
+  }
+}

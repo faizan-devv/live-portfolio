@@ -1,0 +1,66 @@
+.portfolioWrapper {
+  background-color: #040221;
+  color: #fff;
+  padding: 20px 0 100px 0;
+}
+.portfolioInner > h3 {
+  margin-bottom: 20px;
+  font-weight: 200;
+  display: inline-block;
+  position: relative;
+}
+.portfolioInner > h3::after {
+  content: "";
+  position: relative;
+  left: 25px;
+  width: 250px;
+  top: -10px;
+  z-index: 99999;
+  display: inline-block;
+  height: 1px;
+  background-color: #ff0513;
+}
+.portfolioNav {
+  margin-bottom: 80px;
+}
+.portfolioNav button {
+  background: transparent;
+  border: 0px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.portfoliCardsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0px -30px;
+}
+
+@media (max-width: 1024px) {
+  .portfoliCardsWrapper {
+    margin: 0px -15px;
+  }
+  .portfolioNav button {
+    font-size: 22px;
+  }
+  .portfolioNav {
+    margin-bottom: 60px;
+  }
+  .portfolioWrapper {
+    padding: 20px 0 50px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .portfolioNav button {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .portfolioInner > h3::after {
+    display: none;
+  }
+}

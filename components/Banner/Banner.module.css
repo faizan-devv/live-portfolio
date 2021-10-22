@@ -1,0 +1,124 @@
+.bannerWrapper {
+  background-color: #0e0c38;
+  color: #fff;
+  position: relative;
+  padding: 50px 0 100px 0;
+}
+.shape2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.bannerInner {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  left: -22%;
+  z-index: 1;
+  top: 140px;
+}
+.circle img {
+  max-width: 500px;
+}
+.bannerLeft {
+  position: relative;
+  z-index: 2;
+}
+.bannerLeft > span {
+  font-size: 34px;
+  font-weight: 200;
+}
+.bannerLeft h1 {
+  margin-bottom: 12px;
+  margin-left: -5px;
+}
+
+.bannerLeft p {
+  margin-bottom: 25px;
+}
+.bannerLeft p span {
+  color: #ff0513;
+}
+
+.bannerButtons {
+  padding-top: 40px;
+}
+
+.bannerButtons button {
+  margin-right: 25px;
+}
+
+.bannerRight {
+  padding: 0px 45px;
+}
+
+.bannerRight img {
+  max-width: 100%;
+}
+.socialIcons a img {
+  padding-right: 25px !important;
+}
+.socialProfiles p {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 1199px) {
+  .bannerWrapper {
+    padding: 80px 0px 50px 0;
+  }
+  .bannerLeft {
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 1024px) {
+  .shape2,
+  .circle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .socialIcons img {
+    max-width: 50px;
+  }
+  .bannerButtons button {
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerWrapper {
+    padding: 40px 0px;
+  }
+  .bannerInner {
+    flex-wrap: wrap;
+  }
+  .bannerLeft {
+    flex: 0 0 100%;
+    padding-bottom: 40px;
+  }
+  .bannerLeft > span {
+    font-size: 24px;
+  }
+  .socialProfiles p {
+    font-size: 19px;
+  }
+  .btn {
+    height: 53px;
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  .bannerRight {
+    width: 100%;
+    text-align: center;
+  }
+  .bannerRight img {
+    max-width: 300px;
+  }
+}

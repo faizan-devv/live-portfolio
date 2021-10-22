@@ -1,0 +1,44 @@
+.CapabilitiesWrapper {
+  background-color: #0e0c38;
+  color: #fff;
+  padding: 75px 0px;
+}
+.CapabilitiesInner {
+  text-align: center;
+}
+.CapabilitiesInner h2 {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.CapabilitiesInner h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 250px;
+  bottom: 0px;
+  height: 1px;
+  transform: translate(-50%, 0px);
+  background-color: #ff0513;
+}
+.CapabilitiesBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px -15px 30px;
+}
+
+@media (max-width: 1024px) {
+  .CapabilitiesWrapper {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .CapabilitiesBoxes {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .CapabilitiesWrapper {
+    padding-bottom: 0px;
+  }
+}
