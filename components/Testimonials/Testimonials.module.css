@@ -1,0 +1,242 @@
+.testimonialsWrapper {
+  background-color: #040221;
+  color: #fff;
+  padding: 100px 0px 130px;
+  text-align: center;
+}
+.testimonialsInner {
+  max-width: 1700px;
+  padding: 0px 40px;
+  margin: 0 auto;
+}
+.testimonialsInner h2 {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.testimonialsInner h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 250px;
+  bottom: 0px;
+  height: 1px;
+  transform: translate(-50%, 0px);
+  background-color: #ff0513;
+}
+
+.clientsWrapper {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.clientsLeft {
+  flex: 1;
+}
+.clientsRight {
+  flex: 1;
+  text-align: left;
+  padding-left: 50px;
+}
+.clientsRight p {
+  max-width: 800px;
+  font-size: 26px;
+  margin: 25px 0px 125px;
+  position: relative;
+}
+.clientsRight h5 {
+  font-weight: 500;
+}
+.clientsRight span {
+  font-size: 24px;
+  font-weight: 200;
+}
+.Clients {
+  position: relative;
+}
+
+.clientsRight img:last-child {
+  position: absolute;
+  bottom: -65px;
+}
+
+.Avatar:nth-child(1) {
+  position: absolute;
+  top: -80px;
+  right: 80px;
+}
+
+.Avatar:nth-child(2) {
+  position: absolute;
+  top: -30px;
+  left: 80px;
+}
+.Avatar:nth-child(3) {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+
+.Avatar:nth-child(4) {
+  position: absolute;
+  bottom: -96px;
+  left: calc(50% - 119px);
+}
+.Avatar:nth-child(5) {
+  position: absolute;
+  bottom: -40px;
+  right: 80px;
+}
+.Avatar:nth-child(6) {
+  position: absolute;
+  top: 100px;
+  right: calc(50% - 105px);
+}
+.Avatar:nth-child(3) img {
+  max-width: 96px;
+}
+.Avatar:nth-child(6) img {
+  max-width: 125px;
+}
+.Avatar img {
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.Avatar:hover img {
+  border: 6px solid #ff0513;
+  transform: scale(1.1);
+}
+
+.Avatar:nth-child(3):hover img {
+  max-width: 110px;
+}
+.Avatar:nth-child(6):hover img {
+  max-width: 140px;
+}
+
+@media (max-width: 1024px) {
+  .testimonialsWrapper {
+    padding: 100px 0px;
+  }
+  .mapImage img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .clientsRight {
+    margin-top: 120px;
+  }
+  .Avatar img {
+    max-width: 130px;
+  }
+  .Avatar:nth-child(6) img {
+    max-width: 100px;
+  }
+  .Avatar:nth-child(3) img {
+    max-width: 70px;
+  }
+  .Avatar:nth-child(6):hover img {
+    max-width: 115px;
+  }
+  .Avatar:nth-child(1) {
+    position: absolute;
+    top: -50px;
+    right: 120px;
+  }
+
+  .Avatar:nth-child(4) {
+    bottom: -50px;
+    left: calc(50% - 98px);
+  }
+  .Avatar:nth-child(6) {
+    right: calc(50% - 25px);
+  }
+  .Avatar:nth-child(5) {
+    position: absolute;
+    bottom: -20px;
+    right: 220px;
+  }
+  .clientsLeft,
+  .clientsRight {
+    flex: 0 0 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Avatar:nth-child(5) {
+    bottom: -10px;
+    right: 100px;
+  }
+  .Avatar:nth-child(3) {
+    top: 180px;
+    left: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .Avatar:nth-child(3) {
+    position: absolute;
+    top: 180px;
+    left: 80px;
+  }
+  .Avatar:nth-child(5) {
+    position: absolute;
+    bottom: -20px;
+    right: 80px;
+  }
+  .testimonialsInner {
+    padding: 0px 15px;
+  }
+  .Avatar img {
+    max-width: 50px !important;
+  }
+  .Avatar:nth-child(2) {
+    top: 0px;
+    left: 00px;
+  }
+  .Avatar:nth-child(3) {
+    top: 80px;
+    left: 40px;
+  }
+  .Avatar:nth-child(6) {
+    top: 35px;
+    right: calc(50% - 10px);
+  }
+  .Avatar:nth-child(1) {
+    top: -20px;
+    right: 40px;
+  }
+  .Avatar:nth-child(4) {
+    bottom: 0px;
+    left: calc(50% - 38px);
+  }
+  .Avatar:nth-child(5) {
+    bottom: 30px;
+    right: 60px;
+  }
+  .clientsWrapper {
+    margin-top: 70px;
+  }
+  .clientsRight {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .clientsRight img {
+    max-width: 30px;
+  }
+  .clientsRight p {
+    font-size: 16px;
+    margin: 15px 0px 80px;
+  }
+  .clientsRight span {
+    font-size: 18px;
+  }
+  .testimonialsWrapper {
+    padding: 75px 0px;
+  }
+  .testimonialsInner h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .clientsRight img:last-child {
+    bottom: -40px;
+  }
+}
