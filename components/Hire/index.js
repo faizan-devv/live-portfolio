@@ -11,7 +11,6 @@ const Hire = () => {
       .sendForm(apiKey.SERVICE_ID, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
       .then(
         (result) => {
-          console.log("nacho");
           alert("Message Sent, We will get back to you shortly", result.text);
         },
         (error) => {
@@ -22,8 +21,6 @@ const Hire = () => {
 
   useEffect(() => {
     init("user_M7OMGHq82v7K4jTXztm8n");
-    console.log("yadd", apiKey);
-    console.log("bari yadd ", apiKey.TEMPLATE_ID, apiKey.USER_ID);
   }, []);
   return (
     <div id="Hire" className={styles.hireWrapper}>
