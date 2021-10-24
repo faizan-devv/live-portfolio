@@ -71,7 +71,7 @@
 
 @media (max-width: 1024px) {
   .logo img {
-    max-width: 200px;
+    max-width: 150px !important;
   }
   .navBar a {
     color: #fff;
