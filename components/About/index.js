@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <div className={styles.downloadCv}>
               <a href="/assets/CV.pdf" className={`btn`} download>
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
