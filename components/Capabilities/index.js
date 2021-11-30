@@ -14,10 +14,10 @@ const Capabilities = () => {
           <div className={styles.CapabilitiesBoxes}>
             <CapabilitiesCard heading='Web Design' desc='Bringing your ideas to life'/>
             <CapabilitiesCard heading='Next.js' desc='Creating Fast and Reliable Web Apps'/>
-            <CapabilitiesCard heading='Gatsby.js' desc='Creating Optimized and Fast Static Web Sites'/>
+            <CapabilitiesCard heading='React.js' desc='Creating Stateful Client Side Rendrred Applications'/>
             <CapabilitiesCard heading='Node.js' desc='Creating Robust and Secure Servers'/>
-            <CapabilitiesCard heading='Abode XD' desc='Bringing Your Vision To life using WireFrames'/>
-            <CapabilitiesCard heading='Git' desc='Contributing to the community'/>
+            <CapabilitiesCard heading='Express js' desc='Redefining HTTP module and Middleware '/>
+            <CapabilitiesCard heading='Graph QL' desc='Creating Flexible Queries and Mutations'/>
           </div>
         </div>
       </div>
