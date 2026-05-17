@@ -47,6 +47,32 @@
   line-height: 44px;
   font-weight: 500;
 }
+.portfolioOverlay p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.portfolioOverlay span {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+.portfolioOverlay a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  width: fit-content;
+}
+.portfolioOverlay a:hover {
+  background-color: #fff;
+  color: #ff0513;
+}
 
 @media (max-width: 1024px) {
   .portfolioCardWrapper {

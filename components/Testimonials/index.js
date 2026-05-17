@@ -33,6 +33,7 @@ const Testimonials = () => {
                 {clients.map((client, index) => {
                   return (
                     <div
+                      key={client.name}
                       onClick={() => handleClient(client.name)}
                       className={styles.Avatar}
                     >
@@ -47,14 +48,14 @@ const Testimonials = () => {
             <Image alt="" src={quote} />
             {review.map((reviewText) => {
               return (
-                <>
+                <React.Fragment key={reviewText.name}>
                   <p>
                     {reviewText.review}
                     <Image alt="" src={quote} />
                   </p>
                   <h5>-{reviewText.name}</h5>
                   <span>{reviewText.designation}</span>
-                </>
+                </React.Fragment>
               );
             })}
           </div>

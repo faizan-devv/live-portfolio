@@ -27,10 +27,10 @@ const Hire = () => {
       <div className="container">
         <div className={styles.hireInner}>
           <div className={styles.hireContent}>
-            <h2>Let’s Make Something Great Together</h2>
+            <h2>Let&apos;s Build Something Meaningful</h2>
             <p>
-              Why hustle and write an email ? Use the form below to send me an
-              automated one !
+              If you are hiring for AI, Web3, fintech, or product engineering
+              work, send the details below and I will get back to you.
             </p>
           </div>
           <div>

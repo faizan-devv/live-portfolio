@@ -28,7 +28,8 @@ const Header = () => {
           </div>
           <div className={`${styles.navBar} `}>
             <nav className={`${styles.nav} ${menu}`}>
-              <a href="/#About ">About</a>
+              <a href="/#About">About</a>
+              <a href="/#Experience">Experience</a>
               <a href="/#Portfolio">Portfolio</a>
               <a href="/#Hire">Contact</a>
             </nav>

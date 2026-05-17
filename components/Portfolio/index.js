@@ -7,6 +7,10 @@ const Portfolio = () => {
   const initialState = fortfolioData;
   const [portfolioCards, setPortfolioItems] = useState(initialState);
   const [activeIndex, setActiveIndex] = useState(0);
+  const portfolioLinks = [
+    "All",
+    ...new Set(initialState.map((item) => item.category)),
+  ];
 
   const handleOnClick = (link, index) => {
     setActiveIndex(index);
@@ -17,21 +21,19 @@ const Portfolio = () => {
         return card.category === link;
       }
     });
-    console.log(category);
     setPortfolioItems(category);
   };
-
-  const portfolioLinks = ["All", "logo", "websites", "mobile"];
 
   return (
     <div id="Portfolio" className={styles.portfolioWrapper}>
       <div className="container">
         <div className={styles.portfolioInner}>
-          <h3>Portfolio</h3>
+          <h3>Featured Work</h3>
           <div className={styles.portfolioNav}>
             {portfolioLinks.map((link, index) => {
               return (
                 <button
+                  key={link}
                   onClick={() => handleOnClick(link, index)}
                   className={activeIndex === index ? "active" : "unactive"}
                 >
@@ -41,13 +43,15 @@ const Portfolio = () => {
             })}
           </div>
           <div className={styles.portfoliCardsWrapper}>
-            {portfolioCards.map((item, index) => {
+            {portfolioCards.map((item) => {
               return (
                 <Portfolicard
                   img={item.image}
                   category={item.category}
                   title={item.heading}
-                  key={index}
+                  description={item.description}
+                  link={item.link}
+                  key={item.heading}
                 />
               );
             })}

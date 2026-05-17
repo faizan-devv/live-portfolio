@@ -1,0 +1,123 @@
+.experienceWrapper {
+  background-color: #0e0c38;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.experienceInner > h2 {
+  margin-bottom: 18px;
+  position: relative;
+  display: inline-block;
+}
+
+.experienceInner > h2::after {
+  content: "";
+  position: relative;
+  left: 25px;
+  width: 220px;
+  top: -10px;
+  display: inline-block;
+  height: 1px;
+  background-color: #ff0513;
+}
+
+.experienceLead {
+  max-width: 900px;
+  margin-bottom: 50px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.experienceCard {
+  background-color: #15124f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
+}
+
+.experienceMeta span {
+  color: #ff0513;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.experienceMeta p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.experienceContent h3 {
+  font-size: 34px;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+
+.experienceContent h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #ffb3b8;
+}
+
+.experienceContent p {
+  margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.experienceContent ul {
+  padding-left: 22px;
+}
+
+.experienceContent li {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+@media (max-width: 1024px) {
+  .experienceWrapper {
+    padding: 60px 0;
+  }
+
+  .experienceCard {
+    grid-template-columns: 1fr;
+  }
+
+  .experienceContent h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .experienceInner > h2::after {
+    display: none;
+  }
+
+  .experienceCard {
+    padding: 24px 20px;
+  }
+
+  .experienceLead,
+  .experienceMeta p,
+  .experienceContent li {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .experienceContent h4 {
+    font-size: 20px;
+  }
+}

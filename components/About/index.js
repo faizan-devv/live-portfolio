@@ -10,20 +10,22 @@ const About = () => {
           <div className={styles.aboutleft}>
             <h2>About Me</h2>
             <p>
-              Hi I'm Faizan a self taught, full-stack JavaScript developer with
-              a passion for motion design. My favorite development stack at the
-              moment is React, Material Design, Node and MongoDB. Values I hold
-              high are loyalty, reliability, authenticity and helping other
-              achieve their success. Which is why I see projects through to the
-              end and why I believe in not only creating beautiful software but
-              also reliable and reflect the client's brand and that is easy to
-              use so that it does not distract the a user experience
+              I am a senior software engineer based in Islamabad with hands-on
+              experience across AI systems, Web3 products, fintech workflows,
+              and full-stack application delivery. A core part of my work is
+              leading frontend engineering for high-scale React and Next.js
+              applications where performance, rendering strategy, and product
+              quality directly affect growth.
             </p>
             <p>
-              Whether it’s creating servers in Node, connecting to MongoDB
-              databases or designing unique user experiences per device whilst
-              still maintaining a consistent brand experience I will bring your
-              ideas to life.
+              In Agile and SCRUM teams, I have led frontend delivery for Web3
+              products built with React and Next.js, architected CSR, SSR, and
+              ISSR experiences from scratch, integrated smart contract flows
+              across Ethereum, Solana, and TON, and shipped a Telegram Mini App
+              used by more than 2 million users with Preact Signals. I also
+              bring strong experience with charting libraries including
+              Chart.js, ApexCharts, and TradingView for data-heavy financial and
+              blockchain interfaces.
             </p>
             <div className={styles.downloadCv}>
               <a href="/assets/CV.pdf" className={`btn`} download>

@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Footer.module.css";
 import Image from "next/image";
 import logo from "../../public/assets/images/logo.png";
-import insta from "../../public/assets/images/insta.png";
 import linkdin from "../../public/assets/images/linkedin.png";
 const Footer = () => {
   return (
@@ -14,7 +13,8 @@ const Footer = () => {
           </div>
           <div className={styles.footerLiks}>
             <nav className={`${styles.nav} `}>
-              <a href="/#About ">About</a>
+              <a href="/#About">About</a>
+              <a href="/#Experience">Experience</a>
               <a href="/#Portfolio">Portfolio</a>
               <a href="/#Hire">Contact</a>
             </nav>
@@ -27,12 +27,10 @@ const Footer = () => {
             </a>
           </p>
           <div className={styles.socialIcons}>
-            <a href="https://www.instagram.com/fizi_4/" target="_blank">
-              <img alt="" src={insta} />
-            </a>
             <a
               href="https://www.linkedin.com/in/faizan-rizwan-57462a217"
               target="_blank"
+              rel="noreferrer"
             >
               <img alt="" src={linkdin} />
             </a>
@@ -40,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyRights}>
-        <p>Copyright © 2021 | All rights reserved</p>
+        <p>Copyright © 2026 | All rights reserved</p>
       </div>
     </div>
   );

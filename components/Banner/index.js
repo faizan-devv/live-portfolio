@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./Banner.module.css";
 import Image from "next/image";
-import instagram from "../../public/assets/images/insta.png";
 import linkdin from "../../public/assets/images/linkedin.png";
-import user from "../../public/assets/images/user.png";
 import shape2 from "../../public/assets/images/shape2.png";
 const Banner = () => {
   return (
@@ -14,25 +12,23 @@ const Banner = () => {
             <img src="assets/images/circle.png"></img>
           </div>
           <div className={styles.bannerLeft}>
-            <span>Hello, I am </span>
+            <span>Senior Software Engineer</span>
             <h1>
               Faizan
               <br /> Rizwan
             </h1>
             <p>
-              A young <span>FULL STACK</span> developer with a craze for
-              building the next big thing.
+              I lead <span>FRONTEND ENGINEERING</span> for Web3 and product
+              platforms, shipping React and Next.js experiences backed by AI,
+              real-time data, and scalable backend systems.
             </p>
             <div className={styles.socialProfiles}>
-              <p>Find me on </p>
+              <p>Islamabad, Pakistan</p>
               <div className={styles.socialIcons}>
-                <a href="https://www.instagram.com/fizi_4/" target="_blank">
-                  {" "}
-                  <Image alt="" src={instagram} />
-                </a>
                 <a
                   href="https://www.linkedin.com/in/faizan-rizwan-57462a217"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Image alt="" src={linkdin} />
                 </a>
@@ -40,13 +36,16 @@ const Banner = () => {
             </div>
             <div className={styles.bannerButtons}>
               <a className={`btn`} href="/#Hire">
-                Hire Me
+                Let&apos;s Talk
+              </a>
+              <a className={`btn`} href="/assets/CV.pdf" download>
+                Download Resume
               </a>
             </div>
           </div>
           <div className={styles.bannerRight}>
             <div className={styles.userImage}>
-              <Image alt="" src={user} />
+              <img alt="" src="/assets/images/user.png" />
             </div>
           </div>
         </div>
