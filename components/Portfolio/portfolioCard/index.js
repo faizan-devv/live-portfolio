@@ -13,7 +13,7 @@ const Portfolicard = (props) => {
           <span>{props.description}</span>
           {props.link && (
             <a href={props.link} target="_blank" rel="noreferrer">
-              View Repository
+              View
             </a>
           )}
         </div>
