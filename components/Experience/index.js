@@ -9,7 +9,7 @@ const Experience = () => {
         <div className={styles.experienceInner}>
           <h2>Experience</h2>
           <p className={styles.experienceLead}>
-            Roles where I have shipped AI, Web3, fintech, and product
+            Roles where I have shipped agentic AI, Web3, fintech, and product
             engineering work across fast-moving teams.
           </p>
           <div className={styles.timeline}>

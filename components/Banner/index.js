@@ -12,15 +12,16 @@ const Banner = () => {
             <img src="assets/images/circle.png"></img>
           </div>
           <div className={styles.bannerLeft}>
-            <span>Senior Software Engineer</span>
+            <span>Senior Software Engineer · Agentic AI</span>
             <h1>
               Faizan
               <br /> Rizwan
             </h1>
             <p>
-              I lead <span>FRONTEND ENGINEERING</span> for Web3 and product
-              platforms, shipping React and Next.js experiences backed by AI,
-              real-time data, and scalable backend systems.
+              I build <span>AGENTIC AI</span> systems with LangChain, LangGraph,
+              Vercel AI SDK, and FastAPI — multi-step agent workflows, RAG, and
+              tool-calling, shipped with production-grade React and Next.js
+              frontends.
             </p>
             <div className={styles.socialProfiles}>
               <p>Islamabad, Pakistan</p>

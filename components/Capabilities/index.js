@@ -4,28 +4,28 @@ import CapabilitiesCard from "./Capabilitiescard";
 
 const capabilityItems = [
   {
-    heading: "Frontend Leadership",
-    desc: "Leading React and Next.js teams in Agile and SCRUM environments for large-scale product delivery",
+    heading: "Agentic AI Engineering",
+    desc: "Multi-step agent workflows with LangChain, LangGraph, and the Vercel AI SDK across multiple LLM providers",
   },
   {
-    heading: "Rendering Architecture",
-    desc: "CSR, SSR, and ISSR strategies designed for high-performance Web3 applications",
+    heading: "RAG and Retrieval Systems",
+    desc: "Retrieval pipelines over time-series and unstructured data using pgvector and cosine similarity",
   },
   {
-    heading: "Web3 Frontends",
-    desc: "React, Next.js, Preact Signals, and smart contract integrations across Ethereum, Solana, and TON",
+    heading: "MCP and Tool Calling",
+    desc: "MCP server integrations that extend agents with advanced tool-calling and orchestration flows",
   },
   {
-    heading: "Charting and Data UI",
-    desc: "TradingView, ApexCharts, and Chart.js for financial dashboards and blockchain analytics",
+    heading: "AI Backend Systems",
+    desc: "FastAPI and NestJS services with Redis, BullMQ, and workflow orchestration built for concurrent AI workloads",
   },
   {
-    heading: "AI and Backend Systems",
-    desc: "Vercel AI SDK, NestJS, Redis, BullMQ, pgvector, and workflow orchestration for scale",
+    heading: "Frontend Engineering",
+    desc: "React, Next.js, and Preact Signals with CSR, SSR, and ISSR rendering for high-performance products",
   },
   {
     heading: "Web3 and Fintech Delivery",
-    desc: "EVM, Uniswap V3, Jito, PostgreSQL, MongoDB, Docker, Linux, and production delivery under Agile workflows",
+    desc: "Smart contract integrations across Ethereum, Solana, and TON with TradingView and ApexCharts data UI",
   },
 ];
 
@@ -36,8 +36,8 @@ const Capabilities = () => {
         <div className={styles.CapabilitiesInner}>
           <h2>My Capabilities</h2>
           <p>
-            Frontend systems, rendering strategies, and platform engineering
-            work for modern Web3, fintech, and AI products.
+            Agentic AI systems, retrieval pipelines, and the frontend and
+            platform engineering needed to ship them to production.
           </p>
           <div className={styles.CapabilitiesBoxes}>
             {capabilityItems.map((item) => {

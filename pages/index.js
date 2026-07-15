@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Faizan Rizwan | Senior Software Engineer</title>
+        <title>Faizan Rizwan | Agentic AI Engineer</title>
         <meta
           name="description"
-          content="Portfolio of Faizan Rizwan, a senior software engineer building AI agents, Web3 products, scalable backends, and high-performance web applications."
+          content="Portfolio of Faizan Rizwan, a senior software engineer building agentic AI systems with LangChain, LangGraph, Vercel AI SDK, and FastAPI, alongside Web3 products and high-performance React and Next.js applications."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

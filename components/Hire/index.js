@@ -29,8 +29,9 @@ const Hire = () => {
           <div className={styles.hireContent}>
             <h2>Let&apos;s Build Something Meaningful</h2>
             <p>
-              If you are hiring for AI, Web3, fintech, or product engineering
-              work, send the details below and I will get back to you.
+              If you are hiring for agentic AI, Web3, fintech, or product
+              engineering work, send the details below and I will get back to
+              you.
             </p>
           </div>
           <div>

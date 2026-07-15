@@ -5,18 +5,18 @@ const experienceData = [
     location: "Islamabad, Pakistan",
     period: "03/24 - Present",
     summary:
-      "Leading frontend and product engineering across AI, Web3, and platform systems with a strong focus on React, Next.js, and scalable user-facing architecture.",
+      "Leading agentic AI engineering across product and platform systems — architecting agent workflows with LangChain, LangGraph, Vercel AI SDK, and FastAPI, backed by deep React and Next.js delivery experience.",
     highlights: [
+      "Architected agentic AI systems with LangChain, LangGraph, and the Vercel AI SDK, orchestrating multi-step workflows across multiple LLM providers.",
+      "Engineered RAG systems for time-series and unstructured data using pgvector and cosine similarity.",
+      "Integrated MCP servers to extend agent capabilities with advanced tool-calling flows.",
+      "Built high-performance FastAPI and NestJS services with Redis and BullMQ to handle concurrent AI workloads.",
       "Led frontend engineering for Web3 applications in an Agile and SCRUM environment, scaling React and Next.js products for production use.",
       "Architected and developed a Web3 product suite from scratch using CSR, SSR, and ISSR rendering strategies.",
       "Integrated smart contract-driven functionality into React and Next.js applications across Ethereum, Solana, and TON.",
       "Led development of a Telegram Mini App game used by 2M+ users with Preact Signals for high-performance client updates.",
       "Delivered complex charting and market data experiences using TradingView, ApexCharts, and Chart.js for Web3 and financial products.",
-      "Architected AI agents with the Vercel AI SDK, multi-step workflows, and support for multiple LLM providers.",
-      "Engineered RAG systems for time-series and unstructured data using pgvector and cosine similarity.",
-      "Built high-performance NestJS services with Redis and BullMQ to handle concurrent workloads.",
       "Designed blockchain data infrastructure with Moralis, Alchemy, and Envio for indexing and event monitoring.",
-      "Integrated MCP servers to extend agent capabilities with advanced tool-calling flows.",
     ],
   },
   {
